@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Date-Holidays-EnglandWales
-version:            0.03
+version:            0.04
 abstract:           Determines bank holidays
 author:
     - Jason Clifford <jason@ukfsn.org>
