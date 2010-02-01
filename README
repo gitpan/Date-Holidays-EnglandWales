@@ -21,6 +21,7 @@ DEPENDENCIES
 This module requires these other modules and libraries:
 
   Time::Piece
+  Time::Seconds
   DateTime::Event::Easter
 
 COPYRIGHT AND LICENCE
