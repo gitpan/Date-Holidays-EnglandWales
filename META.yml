@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Date-Holidays-EnglandWales
-version:            0.05
+version:            0.06
 abstract:           Determines bank holidays
 author:
     - Jason Clifford <jason@ukfsn.org>
@@ -12,7 +12,8 @@ build_requires:
     ExtUtils::MakeMaker:  0
 requires:
     DateTime::Event::Easter:  ~
-    Time::Piece:          Time::Seconds
+    Time::Piece:          ~
+    Time::Seconds:        ~
 no_index:
     directory:
         - t
