@@ -6,8 +6,7 @@ WriteMakefile(
     NAME              => 'Date::Holidays::EnglandWales',
     VERSION_FROM      => 'lib/Date/Holidays/EnglandWales.pm', # finds $VERSION
     PREREQ_PM         => {
-        Time::Piece => undef,
-        Time::Seconds => undef,
+        DateTime => undef,
         DateTime::Event::Easter => undef
     },
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
